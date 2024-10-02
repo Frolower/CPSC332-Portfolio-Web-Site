@@ -29,6 +29,12 @@ header {
     width: 300px;
 }
 
+.picture_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 table, th, td {
     border-color: black;
     border: 1px solid;
@@ -44,8 +50,8 @@ th, td {
     width: 150px;
 }
 
-.main_section {
-    display: flex;   
+.main_div {
+    display: flex;
 }
 
 .div_right, .div_left {
@@ -53,5 +59,10 @@ th, td {
 }
 
 .div_left {
+    width: 35%;
     border-right: 1px solid black;
+}
+
+.div_right {
+    width: 65%;
 }
