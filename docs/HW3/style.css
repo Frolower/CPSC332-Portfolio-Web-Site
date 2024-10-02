@@ -45,6 +45,13 @@ th, td {
 }
 
 .main_section {
-    display: flex;
-    
+    display: flex;   
+}
+
+.div_right, .div_left {
+    padding: 1%;
+}
+
+.div_left {
+    border-right: 1px solid black;
 }
