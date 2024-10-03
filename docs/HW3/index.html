@@ -1,7 +1,7 @@
 <!-- Nikita Dubinin
  CPSC 332
- Homework 2
- Last modified: 09.20.2024 -->
+ Homework 3
+ Last modified: 10.02.2024 -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,20 +10,22 @@
         <link rel="icon" type="image/x-icon" href="./favicon.png">
     </head>
     <body>
-        <header>
-          <a class="header_button" href="./index.html#about">About Me</a>
-          <a class="header_button" href="./index.html#career">Career</a>
-          <a class="header_button" href="./index.html#education">Education</a>
-          <a class="header_button" href="./index.html#hobbies">Hobbies</a>
-        </header>
+        <navbar>
+          <img class="nav_logo" src="./logo.jpeg" alt="logo">
+          <a class="nav_button" href="./index.html#about">About Me</a>
+          <a class="nav_button" href="./index.html#career">Career</a>
+          <a class="nav_button" href="./index.html#education">Education</a>
+          <a class="nav_button" href="./index.html#hobbies">Hobbies</a>
+        </navbar>
       <div class="main_div">
           <div class="div_left">
           <section id="about">
-          <p>My name is Nikita Dubinin, I am a passionate computer scientist studying at Gonzaga University. This site is a web version of my resume.</p>
           <div class="picture_div">
           <img class="profile_picture" src="./sad_guy.jpg" alt="profile image">
           </div>
-
+          <h2 class="name_container">Nikita Dubinin <br>Software Developer</h2>
+          <p>My name is Nikita Dubinin, I am a passionate computer scientist studying at Gonzaga University. This site is a web version of my resume.</p>
+          <div class="skills_container">
           <h3>Skills:</h3>
           <ul>
               <li>Golang</li>
@@ -32,6 +34,7 @@
               <li>HTML</li>
               <li>Python</li>
           </ul>
+          </div>
           </section>
         </div>
         <div class="div_right">
@@ -80,7 +83,7 @@
               </tr>
             </table>
 
-            <table>
+            <table class="qualifications_table">
               <caption>Qualification</caption>
               <tr>
                 <th>Skill</th>
