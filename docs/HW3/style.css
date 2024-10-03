@@ -8,6 +8,11 @@ Nikita Dubinin
 body {
     padding: 0;
     margin: 0;
+    font-family: Helvetica; /* EXTRA CREDIT custom font */
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald'; /* EXTRA CREDIT custom font */
 }
 
 .nav_button {
@@ -35,12 +40,20 @@ navbar {
     background-color: black;
     opacity: 10;
     color: white;
+    border-bottom: 1px solid white;
 }
 
 .profile_picture {
     height: 300px;
     width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black; /* EXTRA CREDIT special effect */
 }
+
+.profile_picture:hover {
+    box-shadow: 5px 5px 10px black;
+}
+
 
 .picture_div {
     display: flex;
@@ -63,8 +76,8 @@ th, td {
 }
 
 .rcrs_logo {
-    height: 100px;
-    width: 150px;
+    height: 20%;
+    width: 20%;
 }
 
 .main_div {
@@ -77,6 +90,7 @@ th, td {
 
 .div_left {
     width: 35%;
+    background-color: rgb(235, 235, 235);
 }
 
 .div_right {
@@ -99,5 +113,5 @@ tr:nth-child(odd) {
 }
 
 tr:nth-child(even) {
-    background-color: gray;
+    background-color: rgb(82, 82, 82);
 }
